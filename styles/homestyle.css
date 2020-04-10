@@ -1,28 +1,54 @@
 body {
-  background-color: ivory;
+  /* background-color: ghostwhite;  
+  background-image: url('../images/clearSky.jpg');*/
 }
 header {
-  border: 2px;
-  background-image: linear-gradient(to right, rgb(197, 135, 235), rgba(150, 100, 230, 0.995));
+  margin-top: 10px;
+  /* background-image: linear-gradient(to right, rgb(197, 135, 235), rgba(150, 100, 230, 0.995)); */
   background-size: cover;
-  height: 5rem;
+  border: solid;
   border-color: slateblue;
   border-radius: 2px;
+  box-shadow: 0 4px 2px 2px #000000;
+  height: 100px;
 }
+
+.my-name {
+    text-align: left;
+    margin-top: 30px;
+    width: 500px;
+    height: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration-color: ghostwhite;
+     border: solid;
+    border-color: green; 
+}
+
 .header-nav {
-    align-content: right;
+     margin-top: 20px; 
+     margin-left: 150px;
+     /* margin-bottom: 50px;  */
+     align-content: right;
+     max-height: 70px;
+    /*   border: solid;
+     border-color: black;  */
 }
 
 .header-nav ul {
     text-align: right;
+    margin-top: 0px;
     color: gray;
     font-weight: bold;
     padding: 15px;
+    grid-row: 1;
+    grid-column: 2;
 }
 
 .header-nav li {
     display: inline;
     padding: 20px;
+    font-size: 20px;
 }
  
 .header-nav .active {
@@ -32,37 +58,54 @@ header {
 .header-nav a:hover {
     color: blue;
 }
+
+img {
+    size: 50px;
+    border-radius: 50%;  
+    border: solid;
+    border-color: black;;
+    border-style: outset;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-left: 100px;
+    height: 100px;
+    align-content: left;
+    grid-row: 1;
+    grid-column: 1;
+}
+
 .wrapper {
     padding-left: 200px;
     padding-top: 10px;
-    font-family: 'Courier New';
-    background-color: lawngreen;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('../images/PalmTrees.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    /* background-color: lawngreen; */
 }
 
 
  .grid-container {
-     padding: 30px;
-     margin: 50px;
+     align-content: center;
+     padding: 10px;
+     margin: 100px;
+     width: 800px;
      border-style: solid;
      border-radius: 1%;
      border-color: slateblue;
-     background-color: lavenderblush;
+     background-color: white;
      display: grid;
+     opacity: 0.7;
+     box-shadow: 0 4px 2px 2px #000000;
  }
 
- img {
-    size: 100px;
-    border-radius: 50%; 
-    border-style: outset;
-    border-width: 1px;
-    margin-left: 200px;
-    height: 200px;
-    grid-column: 1;
-    grid-row: 1;
-}
-
+ 
 .desc {
     padding: 50px;
-    grid-column: 2;
-    grid-row: 1;
+    /* grid-column: 2;
+    grid-row: 1; */
 }

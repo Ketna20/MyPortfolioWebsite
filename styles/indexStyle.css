@@ -1,0 +1,14 @@
+header {
+    display: grid;
+    border: black;
+}
+
+img {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+nav {
+    grid-row: 1;
+    grid-column: 2;
+}

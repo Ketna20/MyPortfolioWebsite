@@ -1,3 +1,56 @@
+.resume-body {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border-style: solid;
+   border-color: gray;
+   box-shadow: 0 1px 1px 1px gray;
+   margin: 60px;
+}
+
+.title {
+    color: mediumblue;
+    margin-left: 30px;
+}
+
+.prof-sum {
+  list-style: circle;
+  margin-left: 40px;
+}
+
+.prof-skill .prof-exp {
+    font-size: medium;
+}
+
+
+.tech-skills {
+    margin-left: 80px;
+    align-content: left;
+    width: 80%;
+    border: 1px;
+    border-style: solid;
+    border-color: mediumblue;
+}
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+td {
+  border: 1px solid #dddddd;
+}
+.tech {
+  list-style: circle;
+}
+
+.prof-exp {
+    margin-left: 30px;
+    font-weight: bold;
+    color: mediumblue;
+}
+
+.resp {
+    margin-left: 40px;
+    font-weight: bold;
+    color: mediumblue;
+}
 .cProfInfo {
     height: 100px;
     width: 100px;
