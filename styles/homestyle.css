@@ -6,10 +6,8 @@ header {
   margin-top: 10px;
   /* background-image: linear-gradient(to right, rgb(197, 135, 235), rgba(150, 100, 230, 0.995)); */
   background-size: cover;
-  border: solid;
-  border-color: slateblue;
-  border-radius: 2px;
-  box-shadow: 0 4px 2px 2px #000000;
+  border-radius: 5px;
+  background-color: #f2f2f2;
   height: 100px;
 }
 
@@ -37,7 +35,7 @@ header {
 
 .header-nav ul {
     text-align: right;
-    margin-top: 0px;
+    margin-top: 10px;
     color: gray;
     font-weight: bold;
     padding: 15px;

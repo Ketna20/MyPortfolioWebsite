@@ -1,8 +1,7 @@
 .resume-body {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   border-style: solid;
-   border-color: gray;
-   box-shadow: 0 1px 1px 1px gray;
+   border-radius: 5px;
+   background-color: #f2f2f2;
    margin: 60px;
 }
 
