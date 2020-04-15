@@ -1,10 +1,5 @@
-body {
-  /* background-color: ghostwhite;  
-  background-image: url('../images/clearSky.jpg');*/
-}
 header {
   margin-top: 10px;
-  /* background-image: linear-gradient(to right, rgb(197, 135, 235), rgba(150, 100, 230, 0.995)); */
   background-size: cover;
   border-radius: 5px;
   background-color: #f2f2f2;

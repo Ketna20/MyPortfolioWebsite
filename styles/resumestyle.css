@@ -50,15 +50,3 @@ td {
     font-weight: bold;
     color: mediumblue;
 }
-.cProfInfo {
-    height: 100px;
-    width: 100px;
-    background-color: slateblue;
-    border-radius: 50%;
-    margin: 50px;
-
-}
-
-.cProfInfo h3 {
-    margin-top: 10px;
-}
